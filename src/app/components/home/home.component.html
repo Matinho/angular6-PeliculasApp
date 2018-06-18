@@ -1,0 +1,22 @@
+<div class="jumbotron">
+    <div class="container" color="black">
+        <h1 class="display-4">PeliApp</h1>
+        <p class="lead">Aplicacion que muestra peliculas</p>
+    </div>
+</div>
+
+<div class="container">
+
+    <br>
+
+    <app-tarjetas [peliculas]="cartelera" titulo="Peliculas en Cartelera"></app-tarjetas>
+
+    <br>
+
+    <app-tarjetas [peliculas]="populares" titulo="Peliculas Populares"></app-tarjetas>
+
+    <br>
+
+    <app-tarjetas [peliculas]="popularesNenes" titulo="Peliculas Populares de Niños"></app-tarjetas>
+
+</div>
